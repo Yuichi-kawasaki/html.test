@@ -1,0 +1,159 @@
+
+
+html {
+  height: 100%;
+  font-size: 62.5%;
+}
+body {
+  height: 100%;
+}
+.header {
+  background-color: #F5B4B3;
+  height: 50px;
+  font-size: 1.5rem;
+
+}
+.top_menu li {
+  float: left;
+  width: auto;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.logo_image {
+    width: 110px;
+    float:left;
+    margin: 0;
+}
+ul {
+  /* 余白を削除 */
+  margin: 0;
+  padding: 0;
+}
+li {
+  /* リスト先頭の黒丸を削除 */
+  list-style: none;
+}
+.top_menu li a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 13px;
+}
+.top_menu li a:hover {
+  text-decoration: underline;
+}
+ul.top_menu {
+  float: right;
+}
+.image_area{
+  width: 100%;
+}
+.side_menu li{
+  background-color: #F5B4B3;
+  height: 6rem;
+  margin-bottom: 10px;
+}
+.side_menu li a{
+  font-size:2rem;
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 2rem;
+}
+.banner img{
+  width: 100%;
+}
+.banner{
+  margin-top: 20px;
+}
+.side_menu{
+  width: 300px;
+  float: left;
+  margin-right:20px;
+}
+.content{
+    width: 660px;
+    font-size: 16px;
+    margin-left:50px;
+}
+.wrapper{
+  margin-top: 10px;
+  padding-bottom: 100px;
+}
+.side_menu li:hover{
+  opacity: 0.6;
+}
+.banner a:hover {
+  opacity: 0.6;
+}
+.side_menu li.hover{
+opacity: 0.5;
+}
+.side_menu li a.hover{
+font-weight: bold;
+color: #000000;
+}
+form{
+  width:980px;
+  height:500px;
+  line-height: 3.5;
+}
+
+.company th{
+  width:150px;
+  font-size:18px;
+  text-align: right;
+  margin-right: 20px;
+}
+.company td{
+  padding-left: 1rem;
+}
+
+td textarea {
+  width:480px;
+  display: flex;
+}
+input[type="email"]{
+  width:480px;
+}
+input[type="text"]{
+  width:480px;
+}
+button[type="submit"]{
+  width:80px;
+  height:45px;
+   background-color: #339999;
+   color: white;
+   font-size:20px;
+   margin-left: 60%;
+}
+.btn:hover{
+  opacity: 0.7;
+  cursor: pointer;
+}
+.footer{
+  width: 100%;
+ height: 100px;
+ position: absolute;
+ bottom: 0;
+ background-color: #4D4D4D;
+ display: table;
+}
+.footer p {
+  font-size: 1rem;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+}
+.container {
+  width: 980px;
+  margin: 0 auto;
+  position: relative;
+  min-height: 100%;
+}
